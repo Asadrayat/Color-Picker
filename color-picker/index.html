@@ -7,7 +7,15 @@
 	<link rel="stylesheet" href="./index.css">
 </head>
 <body id="container">
-	<input type="text" value="#000000" id="output" disabled>
+	<div class="wrapper">
+		<div class="icon">#</div>
+		<input type="text" value="000000" id="output" >
+		<Button class="copy_btn" id="copy_btn">copy</Button>
+	</div>	
+	<div class="wrapper">
+		<input type="text" value="rgb(0,0,0)" id="output2" disabled>
+		<Button class="copy_btn2" id="copy_btn2">copy</Button>
+	</div>	
 	<button id="btn">Change color</button>
 	<script src="./index.js"></script>
 </body>
